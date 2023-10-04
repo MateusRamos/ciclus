@@ -1,0 +1,64 @@
+/**SECTION > header */
+.header {
+  background-color: var(--bg-color-section-gray);
+  height: 84px;
+  padding: 0 145px;
+}
+
+.header .logo-wrapper {
+  width: 125px;
+  height: fit-content;
+}
+.header .logo-wrapper img{
+  height: 33px;
+  margin-right: 8px;
+  width: 33px;
+}
+.logo-wrapper-logo {
+  color: #303030;
+  font-family: var(--font-family-logo);
+  margin: 0;
+}
+
+.nav-bar {
+  width: 575px;
+  height: 40px;
+}
+.nav-bar-links {
+  margin-right: 24px;
+}
+.nav-bar-link:first-child {
+  margin-left: 0!important;
+}
+.nav-bar-link:last-child {
+  margin-right: 0!important;
+}
+.nav-bar-link {
+  margin: 0 25px;
+}
+.nav-bar-link p {
+  margin: 0;
+  color: var(--color-black-relevant)!important;
+}
+.nav-bar-link p:hover {
+  color: var(--color-black-relevant-hover);
+}
+.nav-bar-button-login {
+  background-color: none;
+  color: var(--color-green-default);
+  font-size: var(--font-size-description-btn-small);
+}
+.nav-bar-button-login:hover {
+  color: var(--color-green-default-hover);
+}
+.nav-bar-button-cadastro {
+  background-color: var(--btn-principal-color);
+  border-radius: 6px;
+  color: var(--color-white-default);
+  font-size: var(--font-size-description-btn-small);
+}
+.nav-bar-button-cadastro:hover {
+  background-color: var(--btn-principal-hover-color);
+  color: white;
+}
+/** !SECTION > header */

@@ -1,0 +1,103 @@
+#index-body {
+/*! # Cor de fontes: */
+  --color-green-default: #4CAF4F;
+  --color-green-default-hover: #449a47;
+  --color-white-default: #ffffff;
+  --color-black-footer: #263238;
+  --color-black-logo: #303030;
+  --color-black-relevant: #18191f;
+  --color-black-relevant-hover: #111216;
+  --color-black-subtitles: #717171;
+  --color-gray-titles: #4d4d4d;
+  --color-gray-footer-text: #F5F7FA;
+  --color-gray-footer-btn: #D9DBE1;
+  --color-beneficios-icon-wrapper: #E8F5E9;
+
+/*! # Cor das divs: */
+  --bg-color-section-default: #fff;
+  --bg-color-section-gray: #F5F7FA;
+  --bg-color-section-footer: #263238;
+  --btn-color-footer: #ffffff33;
+  --btn-principal-color: #4CAF4F;
+  --btn-principal-hover-color: #449a47;
+  --btn-white-color: #F5F7FA;
+  
+/*! Tamanhos das fontes: */
+  --font-size-community-card: 20px;
+  --font-size-community-title: 44px;
+  --font-size-description-btn-medium: 16px;
+  --font-size-description-btn-small: 14px;
+  --font-size-logo: 30px;
+  --font-size-title-big: 64px;
+  --font-size-title-medium: 36px;
+  --font-size-title-small: 28px;
+
+/*! # Font-family: */
+  --font-family-logo: 'Roboto', sans-serif;
+  --font-family-default: 'Inter', sans-serif;
+
+/* ! # Imagens: */
+  --bg-imagem-community-card-01: url(img/photos/index_community-01.png);
+  --bg-imagem-community-card-02: url(img/photos/index_community-02.png);
+  --bg-imagem-community-card-03: url(img/photos/index_community-02.png);
+}
+
+h1, h2, h4, p, span {
+  font-family: var(--font-family-default);
+}
+
+h1 {
+  font-size: var(--font-size-title-big);
+  font-weight: 600;
+  line-height: 76px;
+  margin: 0;
+}
+
+h2 {
+  font-size: var(--font-size-title-medium);
+  color: var(--color-gray-titles);
+  line-height: 44px;
+  font-weight: 600;
+}
+
+.project-data-number-title {
+  font-size: var(--font-size-title-small);
+  font-weight: 700;
+  line-height: 44px;
+}
+
+h3 {
+  font-size: var(--font-size-logo);
+  font-family: var(--font-family-logo);
+  line-height: 20px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: var(--font-size-community-card);
+  line-height: 28px;
+  font-weight: 600;
+}
+
+p {
+  font-size: var(--font-size-description-btn-medium);
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color-black-subtitles);
+}
+
+.project-data-description {
+  color: var(--color-black-relevant);
+}
+
+span, a {
+  font-size: var(--font-size-description-btn-small);
+  line-height: 20px;
+  font-weight: 400;
+  color: var(--color-black-subtitles);
+}
+
+footer span, footer a {
+  color: var(--color-gray-footer-text);
+}
+

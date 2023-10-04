@@ -1,0 +1,92 @@
+/**SECTION > footer */
+.footer {
+  background-color: var(--bg-color-section-footer);
+  height: fit-content;
+  padding: 58px 165px;
+  margin-top: 16px;
+}
+
+.footer-left {
+  height: 193px;
+  width: 350px;
+}
+.footer-left-logo img {
+  width: 33px;
+}
+.footer-left-logo-title {
+  color: var(--color-white-default);
+  margin: 0;
+  margin-left: 8px;
+}
+.footer-left-copyright span:first-child {
+  margin-bottom: 8px;
+}
+.footer-left-socials {
+  gap: 16px;
+}
+.btn-footer-socials {
+  background-color: var(--btn-white-color-10-faded);
+  border-radius: 50%;
+  color: var(--color-white-default);
+  font-size: 15px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0;
+  text-align: center;
+  width: 32px;
+}
+.btn-footer-socials:hover {
+  background-color: var(--btn-white-color-20-faded);
+  color: var(--color-white-default);
+}
+
+.footer-right {
+  width: 635px;
+}
+.footer-right h4 {
+  color: var(--color-white-default);
+  margin-bottom: 24px;
+}
+.footer-right a {
+  display: block;
+  margin-bottom: 12px;
+  text-decoration: none;
+}
+
+.footer-right-newsletter input, 
+.footer-newsletter-btn {
+  background-color: var(--btn-white-color-20-faded);
+  border: 0;
+  height: 40px;
+}
+.footer-right-newsletter input {
+  border-radius: 8px 0 0 8px;
+  width: 200px;
+}
+.footer-right-newsletter input::placeholder {
+  color: var(--color-gray-footer-btn);
+  font-family: var(--font-family-default);
+  font-size: var(--font-size-description-btn-small);
+  font-weight: 400;
+  line-height: 20px;
+  padding-left: 12px;
+}
+.footer-newsletter-btn {
+  border-radius: 0 8px 8px 0;
+  color: var(--color-white-default);
+  width: 55px;
+}
+.footer-newsletter-btn:hover {
+  background-color: var(--btn-white-color-20-faded);
+  color: var(--color-white-default);
+}
+
+.footer-bottom {
+  background-color: var(--bg-color-section-footer);
+  font-size: var(--font-size-extra-small);
+  color: var(--color-black-footer);
+  font-style: italic;
+  padding: 8px 0;
+  border-top: 1px solid var(--btn-white-color-5-faded);
+}
+/** !SECTION > footer */

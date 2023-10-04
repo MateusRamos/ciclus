@@ -1,0 +1,345 @@
+
+/**SECTION  Defult patterns */
+#index-body h1, 
+#index-body h2,
+#index-body h4,
+#index-body p,
+#index-body a,
+#index-body span,
+#index-body button {
+  font-family: var(--font-family-default);
+}
+
+#index-body h1 {
+  font-size: var(--font-size-title-big);
+  font-weight: 600;
+  line-height: 76px;
+  margin: 0;
+}
+
+#index-body h2 {
+  color: var(--color-gray-titles);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.project-data-number-title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+#index-body h3 {
+  font-family: var(--font-family-logo);
+  font-size: var(--font-size-logo);
+  font-weight: 700;
+  line-height: 20px;
+}
+
+#index-body h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+#index-body p {
+  color: var(--color-black-subtitles);
+  font-size: var(--font-size-description-btn-medium);
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.project-data-description {
+  color: var(--color-black-relevant);
+}
+
+#index-body span, 
+#index-body a {
+  color: var(--color-black-subtitles);
+  font-size: var(--font-size-description-btn-small);
+  font-weight: 400;
+  line-height: 20px;
+}
+
+#index-body footer span, 
+#index-body footer a {
+  color: var(--color-gray-footer-text);
+}
+/** !SECTION  Defult patterns */
+
+
+/**SECTION  Index.html ->  hero */
+.hero-section {
+  background-color: var(--bg-color-section-gray);
+  padding: 96px 144px;
+}
+
+.hero-text {
+  width: 586px;
+}
+.hero-text-title {
+  margin-bottom: 16px;
+}
+.hero-text-title h1 {
+  margin-bottom: 16px;
+}
+.hero-text-title-gray {
+  color: var(--color-gray-titles);
+}
+.hero-text-title-green {
+  color: var(--color-green-default);
+}
+.hero-text-subtitle p {
+  margin-bottom: 32px;
+}
+.hero-text-button button {
+/*Box model stuff*/
+  padding: 14px 32px;
+  border: 0;
+  border-radius: 4px;
+  background-color: var(--btn-principal-color);
+/*Typography stuff*/
+  font-size: var(--font-size-description-btn-medium);
+  color: var(--color-white-default);
+}
+.hero-text-button button:hover {
+  background-color: var(--btn-principal-hover-color);
+}
+.hero-image-wrapper img {
+  width: 467px;
+  height: 467px;
+}
+/** !SECTION  Index.html ->  hero */
+
+
+/**SECTION  Index.html ->  nossos parceiros */
+.nossos-parceiros {
+  height: 190px;
+  margin: 40px 0;
+  padding: 0 144px;
+}
+.nossos-parceiros-text {
+  margin-bottom: 16px;
+}
+/** !SECTION  Index.html ->  nossos parceiros */
+
+
+/**SECTION  Index.html ->  benefícios */
+.beneficios {
+  height: 426px;
+  padding: 0 144px;
+}
+.beneficio-title {
+  margin-bottom: 16px;
+}
+.beneficios-card {
+  height: 300px;
+  width: 280px;
+}
+.beneficios-card-icon-wrapper {
+  background: var(--color-beneficios-icon-wrapper);
+  border-radius: 18px 5px 10px 5px;
+  height: 50px;
+  position: relative;
+  width: 50px;
+}
+.beneficios-card-icon-wrapper object {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+}
+.beneficios-card-title h2 {
+  margin: 8px;
+  font-size: var(--font-size-title-small);
+}
+.beneficios-card-description span {
+  margin: 0;
+}
+/** !SECTION  Index.html ->  benefícios */
+
+
+/**SECTION Index.html ->  download */
+.download {
+  height: fit-content;
+  margin-top: 32px;
+  padding: 0 144px;
+}
+.download-img img {
+  height: 329px;
+}
+.download-text {
+  width: 660px;
+}
+.download-text-title {
+  margin-bottom: 32px;
+}
+.download-text-title h2 {
+  margin-bottom: 16px;
+}
+.download-text-button button {
+  background-color: var(--btn-principal-color);
+  color: var(--btn-white-color);
+  font-size: var(--font-size-description-btn-medium);
+  padding: 14px 32px;
+}
+.download-text-button button:hover {
+  background-color: var(--btn-principal-hover-color);
+  color: var(--btn-white-color);
+}
+/** !SECTION Index.html ->  download */
+
+
+/**SECTION Index.html ->  project-data */
+.project-data {
+  background-color: var(--bg-color-section-gray);
+  margin: 48px 0;
+  padding: 64px 144px;
+}
+.project-data-description, .project-data-numbers {
+  width: 540px;
+}
+
+.project-data-description-green {
+  color: var(--color-green-default)!important;
+}
+.project-data-description p {
+  color: var(--color-black-relevant)!important;
+}
+
+.project-data-numbers-wrapper:first-child {
+  margin-bottom: 40px;
+}
+.project-data-number {
+  width: 255px;
+  gap: 16px;
+}
+.project-data-number-icon object {
+  height: 48px;
+  width: 48px;
+}
+.project-data-number-text h2 {
+  font-size: var(--font-size-title-small);
+  font-weight: 700;
+  margin: 0;
+}
+.project-data-number-text p {
+  margin: 0;
+}
+/** !SECTION Index.html ->  project-data */
+
+
+/**SECTION Index.html ->  download */
+.security {
+  padding: 0 144px;
+  height: fit-content;
+  margin-bottom: 48px;
+}
+.security-img img {
+  height: 433px;
+}
+.security-text {
+  width: 600px;
+  height: fit-content
+}
+.security-text span {
+  margin-bottom: 32px;
+  display: block;
+}
+.security-text button {
+  background-color: var(--btn-principal-color);
+  color: var(--color-white-default);
+  display: block;
+  font-size: var(--font-size-description-btn-medium);
+}
+.security-text button:hover {
+  color: var(--color-white-default);
+  background-color: var(--btn-principal-hover-color);
+}
+/** !SECTION Index.html ->  download */
+
+
+/**SECTION Index.html ->  community */
+.community {
+  padding: 0 144px;
+  margin-bottom: 100px;
+}
+.community-title h2{
+  margin-bottom: 8px;
+}
+.community-title p {
+  margin-bottom: 16px;
+  text-align: center;
+  width: 628px;
+}
+.community-card {
+  /*Positioning stuff*/
+  position: relative;
+  /*Box model stuff*/
+  width: 368px;
+  height: 286px;
+  border-radius: 8px;
+  background-color: var(--bg-color-section-gray);
+  background-repeat: no-repeat;
+}
+
+.community-card:hover .community-card-description {
+  bottom: -10%;
+  transition-duration: 300ms;
+}
+.community-card-description {
+  /*Positioning stuff*/
+  position: absolute;
+  left: 10%;
+  bottom: -15%;
+  /*Box model stuff*/
+  width: 80%;
+  height: fit-content;
+  padding: 16px 16px 0 16px;
+  border-radius: 8px;
+  background-color: var(--bg-color-section-default);
+  /*Miscellaneous*/
+  box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.40);
+}
+.community-card-description h4 {
+  color: var(--color-black-subtitles);
+  margin-bottom: 14px;
+}
+.community-card-description button {
+  background-color: var(--bg-color-section-default);
+  color: var(--color-green-default);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px;
+}
+.community-card-description button:hover {
+  color: var(--color-green-default-hover);
+}
+/** !SECTION Index.html ->  community */
+
+
+/**SECTION Index.html ->  pre-footer */
+.pre-footer {
+  background-color: var(--bg-color-section-gray);
+  margin-top: 50px;
+  padding: 32px 0;
+}
+.pre-footer h1 {
+  color: var(--background-footer);
+}
+.pre-footer .green {
+  color: var(--color-green-default);
+}
+.pre-footer button {
+  background-color: var(--btn-principal-color);
+  border-radius: 4px;
+  color: var(--color-white-default);
+  font-size: var(--font-size-description-btn-medium);
+  margin-top: 32px;
+  padding: 14px 32px;
+}
+.pre-footer button:hover {
+  background-color: var(--btn-principal-hover-color);
+  color: var(--color-white-default);
+}
+/** !SECTION Index.html ->  pre-footer */

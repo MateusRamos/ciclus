@@ -1,0 +1,179 @@
+
+texto-header-logo:
+  cor: #303030
+  tamanho: 30px
+  weight: 700
+  line-height: 20px
+  font: roboto
+texto-header-nav-bar:
+  cor: #18191f
+  tamanho: 16px
+  weight: 500
+  line-height: 24px
+  font: inter
+texto-header-btn-login:
+  cor: #4CAF4F
+  tamanho: 14px
+  weight: 500
+  line-height: 20px 
+  font: inter
+texto-header-btn-criarConta:
+  cor: #ffffff
+  tamanho: 14px
+  weight: 500
+  line-height: 20px 
+  font: inter
+texto-hero-super-title-gray:
+  cor: #4d4d4d
+  tamanho: 64px
+  weight: 600
+  line-height: 76px 
+  font: inter
+texto-hero-super-title-green:
+  cor: #4CAF4F
+  tamanho: 64px
+  weight: 600
+  line-height: 76px 
+  font: inter
+texto-hero-subtitle:
+  cor: #717171
+  tamanho: 16px
+  weight: 400
+  line-height: 24px 
+  font: inter
+texto-hero-btn:
+  cor: #ffffff
+  tamanho: 16px
+  weight: 500
+  line-height: 24px 
+  font: inter
+texto-brands-title:
+  cor: #4d4d4d
+  tamanho: 36px
+  weight: 600
+  line-height: 44px 
+  font: inter
+texto-brands-subtitle:
+  cor: #717171
+  tamanho: 16px
+  weight: 400
+  line-height: 24px 
+  font: inter
+texto-brands-card-title:
+  cor: #4d4d4d
+  tamanho: 28px
+  weight: 700
+  line-height: 36px 
+  font: inter
+texto-brands-card-description:
+  cor: #717171
+  tamanho: 14px
+  weight: 400
+  line-height: 20px 
+  font: inter
+texto-download-title:
+  cor: #4d4d4d
+  tamanho: 36px
+  weight: 600
+  line-height: 44px 
+  font: inter
+texto-download-description:
+  cor: #717171
+  tamanho: 14px
+  weight: 400
+  line-height: 20px 
+  font: inter
+texto-download-btn:
+  cor: #ffffff
+  tamanho: 16px
+  weight: 500
+  line-heigt: 24px
+  font: inter
+texto-project-data-title:
+  cor: #4d4d4d
+  tamanho: 36px
+  weight: 600px
+  line-height: 44px
+  font: inter
+texto-project-data-subtitle:
+  cor: #18191f
+  tamanho: 16px
+  weight: 400
+  line-height: 24px 
+  font: inter
+texto-project-data-numbers-title:
+  cor: #4d4d4d
+  tamanho: 28px
+  weight: 700
+  line-height: 36px 
+  font: inter
+texto-project-data-numbers-subtitle:
+  cor: #717171
+  tamanho: 16px
+  weight: 400 
+  line-height: 24px 
+  font: inter
+texto-security-title:
+  cor: #4d4d4d
+  tamanho: 36px
+  weight: 600
+  line-height: 44px 
+  font: inter
+texto-security-description:
+  cor: #717171
+  tamanho: 14px
+  weight: 400
+  line-height: 20px 
+  font: inter
+texto-security-btn:
+  cor: #ffffff
+  tamanho: 16px
+  weight: 500
+  line-height: 24px 
+  font: inter
+texto-community-title:
+  cor: #4d4d4d
+  tamanho: 44px
+  weight: 600
+  line-height: 44px 
+  font: inter
+texto-community-subtitle:
+  cor: #717171
+  tamanho: 16px
+  weight: 400
+  line-height: 24px 
+  font: inter
+texto-community-card-title:
+  cor: #717171
+  tamanho: 20px
+  weight: 600
+  line-height: 28px 
+  font: inter
+texto-community-card-btn:
+  cor: #4caf4f
+  tamanho: 20px
+  weight: 600
+  line-height: 28px 
+  font: inter
+texto-pre-footer-title:
+  cor: #263238
+  tamanho: 64px
+  weight: 600
+  line-height: 76px 
+  font: inter
+texto-pre-footer-title-green:
+  cor: #4caf4f
+  tamanho: 64px
+  weight: 6ll
+  line-height: 76px 
+  font: inter
+texto-pre-footer-btn:
+  cor: #ffffff
+  tamanho: 16px
+  weight: 500
+  line-height: 24px 
+  font: inter
+
+
+
+
